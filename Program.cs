@@ -1,7 +1,7 @@
-﻿List<string> list = new List<string>();
-bool taskInput  = false;
+﻿List<string> list = [];
+//bool taskInput  = false;
 
-while (taskInput = true)
+while (true)
 {
     Console.WriteLine(@"
 [A] = Add
@@ -38,7 +38,6 @@ while (taskInput = true)
 
         default:
             Console.WriteLine("Invalid Input");
-            taskInput = false;
             break;
     }
 
