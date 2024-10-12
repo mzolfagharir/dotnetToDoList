@@ -69,7 +69,7 @@ Console.ReadLine();
 
 void removeToDo()
 {
-    Console.WriteLine("Enter string for removal");
+    Console.WriteLine("Enter string to remove");
     string remove = Console.ReadLine();
     list.Remove(remove);
 }
