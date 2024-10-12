@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-List<string> list = [];
+﻿List<string> list = [];
 while (true)
 {
     Console.WriteLine(@"
