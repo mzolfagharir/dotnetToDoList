@@ -1,6 +1,6 @@
-﻿List<string> list = [];
-//bool taskInput  = false;
+﻿using System.Runtime.CompilerServices;
 
+List<string> list = [];
 while (true)
 {
     Console.WriteLine(@"
@@ -33,7 +33,7 @@ while (true)
 
         case "E":
         case "e":
-            Console.WriteLine("Exit!");
+            Environment.Exit(0);
             break;
 
         default:
@@ -61,11 +61,9 @@ void showToDo()
 {
     foreach(string i in list)
     {
-        Console.WriteLine(i + " " + i.IndexOf(i));
+        Console.WriteLine($"Value: {i}");
     }
 }
-Console.ReadLine();
-
 void removeToDo()
 {
     Console.WriteLine("Enter string to remove");
