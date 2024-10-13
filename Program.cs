@@ -44,7 +44,7 @@ void addToDo()
 {
     Console.WriteLine("Enter Your Task");
     string add = Console.ReadLine();
-    if (add.Length > 0)
+    if (add.Length > 0 && !list.Contains(add))
     {
         list.Add(add);
     }
